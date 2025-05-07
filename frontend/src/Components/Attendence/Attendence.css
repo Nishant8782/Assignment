@@ -1,0 +1,78 @@
+.attendance-container {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .attendance-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .dropdown-btn {
+    background: #f4f4f4;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .attendance-table-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: auto;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .attendance-table thead {
+    background-color: #4b007d;
+    color: white;
+  }
+  
+  .attendance-table th, .attendance-table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .status-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .status-badge.present {
+    color: green;
+    background-color: #e6f4ea;
+    border: 1px solid green;
+  }
+  
+  .status-badge.absent {
+    color: red;
+    background-color: #fcebea;
+    border: 1px solid red;
+  }
+  

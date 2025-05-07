@@ -1,0 +1,92 @@
+/* components/Logout.css */
+
+.logout-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .logout-btn {
+    background: none;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-container {
+    background: white;
+    border-radius: 20px;
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .popup-header {
+    background: #4b0076;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .popup-body {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .popup-body p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .popup-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cancel-btn,
+  .logout-confirm-btn {
+    padding: 12px 30px;
+    border-radius: 999px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .cancel-btn {
+    background-color: #4b0076;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 12px rgba(75, 0, 118, 0.3);
+  }
+  
+  .logout-confirm-btn {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    transition: 0.3s;
+  }
+  
+  .logout-confirm-btn:hover {
+    background-color: red;
+    color: white;
+  }
+  

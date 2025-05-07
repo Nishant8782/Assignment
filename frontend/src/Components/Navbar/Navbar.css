@@ -1,0 +1,44 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 16px;
+    border-bottom: 1px solid #ccc;
+    font-family: sans-serif;
+    background-color: white;
+  }
+  
+  .navbar-left span {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .icon {
+    color: #c40000;
+    cursor: pointer;
+  }
+  
+  .avatar-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+  }
+  
+  .avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  

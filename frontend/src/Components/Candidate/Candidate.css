@@ -1,0 +1,131 @@
+.candidate-container {
+    background: white;
+   
+    min-height:70vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .main-container{
+    background: white;
+   
+    margin:2rem;
+  
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .filters select,
+  .filters input {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-btn {
+    background-color: #4a0072;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .candidate-search {
+    border: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    width: 250px;
+   
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .candidate-search:focus {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(74, 0, 114, 0.5); /* optional glow effect */
+  }
+  
+  
+  .candidate-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+  }
+  
+  .candidate-table th {
+    background-color: #4a0072;
+    color: white;
+    padding: 10px;
+    
+    text-align: left;
+  }
+
+  .candidate-table thead th:first-child {
+    border-top-left-radius: 8px;
+  }
+  
+  .candidate-table thead th:last-child {
+    border-top-right-radius: 8px;
+  }
+  
+  
+  .candidate-table td {
+    padding: 10px;
+    
+  }
+  
+  .status {
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .status.new {
+    background-color: #f5f5f5;
+  }
+  
+  .status.selected {
+    color: #6200ea;
+    border: 1px solid #6200ea;
+    background-color: #f5edff;
+  }
+  
+  .status.rejected {
+    color: red;
+    border: 1px solid red;
+    background-color: #ffe5e5;
+  }
+  
+  .action-menu {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 8px 0;
+    border-radius: 6px;
+    z-index: 2;
+  }
+  
+  .dropdown-menu div {
+    padding: 8px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dropdown-menu div:hover {
+    background-color: #f0f0f0;
+  }
+  
